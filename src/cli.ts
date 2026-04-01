@@ -7,12 +7,6 @@ import { findTodosInFolder } from './utils/todos';
 async function main() {
   spinner.start();
 
-  await new Promise<void>((resolve) => {
-    setTimeout(() => {
-      resolve();
-    }, 5000);
-  });
-
   if (!isInsideGitRepository()) {
     spinner.fail();
     console.error('🤷 Current directory is not a Git repository.');

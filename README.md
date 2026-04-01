@@ -6,7 +6,7 @@
 
 You can run the tool directly with your preferred package manager:
 
-```
+```bash
 # Using npm
 npx find-old-todos@latest --days 90
 

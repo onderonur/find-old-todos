@@ -1,6 +1,6 @@
 {
   "name": "find-old-todos",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "CLI tool for JavaScript and TypeScript projects that searches for TODO comments older than a specified number of days.",
   "keywords": [
     "todo",
